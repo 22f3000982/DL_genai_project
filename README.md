@@ -5,17 +5,21 @@
 
 ---
 
-## 📂 Folder Structure
+# DL + Gen AI Project (Tentative Title)
 
-DL_genai_project/
-├─ scripts/ # Python or helper scripts
-├─ notebooks/ # Jupyter/Colab notebooks
-└─ data/ # Datasets (keep large files in .gitignore)
-
-yaml
-Copy code
+**Name:** Ashish  
+**Student ID:** 22f3000982  
 
 ---
+
+## 📂 Folder Structure
+
+```bash
+DL_genai_project/
+├── scripts/        # Python or helper scripts
+├── notebooks/      # Jupyter/Colab notebooks
+└── data/           # Datasets (keep large files in .gitignore)
+
 
 ### 📌 Notes
 - Repository is private (with instructor access).
