@@ -1,7 +1,3 @@
-# DL + Gen AI Project (Tentative Title)
-
-**Name:** Ashish  
-**Student ID:** 22f3000982  
 
 ---
 
