@@ -10,7 +10,7 @@
 
 ## 📂 Folder Structure
 
-```bash
+
 DL_genai_project/
 ├── scripts/        # Python or helper scripts
 ├── notebooks/      # Jupyter/Colab notebooks
