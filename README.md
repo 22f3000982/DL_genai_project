@@ -53,3 +53,21 @@ All **3 models are tracked using Weights & Biases (wandb)** with metrics such as
 ---
 
 ## 🧠 Project Structure
+
+project_root/
+├── README.md
+├── requirements.txt
+│
+├── notebooks/
+│   ├── model1_scratch_tfidf_logreg.ipynb
+│   ├── model2_roberta_multilabel.ipynb
+│   ├── model3_distilbert_multilabel.ipynb
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train_roberta.py
+│   ├── train_distilbert.py
+│
+└── data/
+    └── README.txt
+
