@@ -267,13 +267,13 @@ for epoch in range(1, num_epochs + 1):
         best_f1 = val_metrics["f1_macro"]
         epochs_no_improve = 0
         torch.save(model.state_dict(), "distilbert_best_model.bin")
-        print(f"✅ New best model saved! F1-macro={best_f1:.4f}")
+        print(f"New best model saved F1-macro={best_f1:.4f}")
     else:
         epochs_no_improve += 1
         print(f"No improvement for {epochs_no_improve} epoch(s).")
 
     if epochs_no_improve >= early_stop_patience:
-        print("🛑 Early stopping.")
+        print("Early stopping.")
         break
 
 print("Training complete. Best F1-macro:", best_f1)
