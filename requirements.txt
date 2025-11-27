@@ -1,0 +1,18 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+scipy
+
+torch
+transformers
+datasets
+
+wandb
+tokenizers
+sentencepiece
+
+# optional but safe
+accelerate
